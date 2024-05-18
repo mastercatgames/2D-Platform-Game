@@ -1,0 +1,87 @@
+[gd_scene load_steps=13 format=3 uid="uid://cdgdv61uwgb8j"]
+
+[ext_resource type="Texture2D" uid="uid://bgekw6fe0jjpt" path="res://assets/Checkpoint (Flag Idle)(64x64).png" id="1_kycoi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdkup"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipy3k"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o86a"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt3hi"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mvyj"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmquc"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_da8a0"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5xcx"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3ybq"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ovtnh"]
+atlas = ExtResource("1_kycoi")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_07w1m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdkup")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipy3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o86a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt3hi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mvyj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmquc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_da8a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5xcx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3ybq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ovtnh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="flag" type="AnimatedSprite2D"]
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_07w1m")
+autoplay = "default"
+frame_progress = 0.968426
