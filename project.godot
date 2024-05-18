@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="2d Platformer game"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/levels/level-1.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://assets/icon.svg"
 
@@ -20,6 +20,12 @@ config/icon="res://assets/icon.svg"
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="viewport"
+
+[file_customization]
+
+folder_colors={
+"res://scenes/levels/": "green"
+}
 
 [input]
 
